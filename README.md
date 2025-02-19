@@ -67,7 +67,7 @@ then cutting the impressions along the outlines and affixing them to paper.
 according to the preparation process in Section 5.2.
 The resulting conductive handprints were exploited to record capacitive image sequences, 
 following the data collection steps in Section 5.3, imitating the swipe behavior of a real person.
-The attack material handprints were gathered from 8 individuals, resulting in 16 classes and $16\times12\times80=15,360$ images for handprint simulation.
+The attack material handprints were gathered from 9 individuals, resulting in 18 classes and $18\times12\times80=17,280$ images for handprint simulation.
 Notably, in attack cases, each attack swipe required a longer time to meticulously simulate the behavior of genuine subjects, thereby increasing the attack success rate.
 
 
