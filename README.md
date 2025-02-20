@@ -1,6 +1,6 @@
 # CaphandAuth_Dataset
 
-This is the dataset of Sensys'25 submission *[CaphandAuth: Robust and Anti-spoofing Hand Authentication via COTS Capacitive Touchscreens]()*.
+This repository is the dataset of Sensys'25 submission *[CaphandAuth: Robust and Anti-spoofing Hand Authentication via COTS Capacitive Touchscreens]()*.
 
 ----
 
@@ -46,6 +46,7 @@ but with fingers spread. We collected $60\times10\times35=21,000$ images.
 - **Dataset-2c: Speed**: This subset was collected from quick swipes along the main diagonal with fingers spread, 
 approximately 1.5\~2.0 seconds for each swipe, containing 10 swipes per volunteer thus $60\times10\times20=12,000$ images in total.
 - **Dataset-2d: Trajectory**:
+
 It consisted of 10 slow swipes for each volunteer along the secondary diagonal and vertical routes respectively,
 with fingers closed (shown in following figure).
 As a result, it contained $60\times10\times35\times2=42,000$ images.
@@ -58,8 +59,8 @@ yielding 10 swipes per participant, which was totally $60\times10\times35=21,000
 
 **Dataset-3: Temporal Consistency**.
 Collected weekly for a total of 4 weeks after the acquisition of *dataset-1*,
-this dataset involved 8 volunteers who had previously registered their data following *dataset-1*,
-comprising 16 classes and $16\times4\times(3\times35+3\times20)=10,560$ samples altogether.
+this dataset involved 9 volunteers who had previously registered their data following *dataset-1*,
+comprising 18 classes and $18\times4\times(3\times35+3\times20)=11,880$ samples altogether.
 
 **Dataset-4: Handprint Simulation**.
 Conductive hand impressions were made by pressing inked hands onto aluminum foil, 
@@ -67,7 +68,7 @@ then cutting the impressions along the outlines and affixing them to paper.
 according to the preparation process in Section 5.2.
 The resulting conductive handprints were exploited to record capacitive image sequences, 
 following the data collection steps in Section 5.3, imitating the swipe behavior of a real person.
-The attack material handprints were gathered from 9 individuals, resulting in 18 classes and $18\times12\times80=17,280$ images for handprint simulation.
+The attack material handprints were gathered from 8 individuals, resulting in 16 classes and $16\times12\times80=15,360$ images for handprint simulation.
 Notably, in attack cases, each attack swipe required a longer time to meticulously simulate the behavior of genuine subjects, thereby increasing the attack success rate.
 
 
