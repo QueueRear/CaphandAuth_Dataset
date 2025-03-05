@@ -1,6 +1,6 @@
 # CaphandAuth_Dataset
 
-This repository is the dataset of Sensys'25 submission *[CaphandAuth: Robust and Anti-spoofing Hand Authentication via COTS Capacitive Touchscreens]()*.
+This repository is the dataset of Sensys'25 submission *[CaphandAuth: Robust and Anti-spoofing Hand Authentication via COTS Capacitive Touchscreens](https://doi.org/10.1145/3715014.3722046)*.
 
 ----
 
